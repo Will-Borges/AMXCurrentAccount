@@ -6,7 +6,6 @@
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Interfaces;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Request.PostCustomerCurrentAccount;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Response.GetCustomerCurrentAccount;
-    using System;
 
     public class CurrentAccountService : ICurrentAccountService
     {
@@ -45,7 +44,7 @@
         {
             if (entity == null)
             {
-                throw new CurrentAccountException("Error: Customer not found");
+                throw new CurrentAccountException("Customer not found");
             }
         }
 
@@ -113,14 +112,6 @@
                 customerRequest.CurrentAccount.Balance,
                 transactionsEntity);
 
-            var customerEntity = CreateCustomerCurrentAccountEntity(customerRequest, currentAccountEntity);
-
-            return customerEntity;
-        }
-
-        private static CustomerCurrentAccountEntity CreateCustomerCurrentAccountEntity(
-            CustomerCurrentAccountRequest customerRequest, CurrentAccountEntity currentAccountEntity)
-        {
             var customerEntity = new CustomerCurrentAccountEntity(
                 currentAccountEntity,
                 customerRequest.CustomerId,
@@ -149,12 +140,7 @@
         }
 
         private static CustomerCurrentAccountResponse CreateCustomerCurrentAccountResponse(CustomerCurrentAccountEntity entity)
-        {
-            if (entity == null)
-            {
-                return null;
-            }
-            
+        {           
             var transactions = CreateTransactionsCurrentAccountResponse(entity.CurrentAccount.Transactions);
             var current = CreateCurrentAccountResponse(entity.CurrentAccount, transactions);
 

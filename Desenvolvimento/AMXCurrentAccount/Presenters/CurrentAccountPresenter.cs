@@ -5,7 +5,8 @@
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Request.PostCustomerCurrentAccount;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Response.GetCustomerCurrentAccount;
     using AMXCurrentAccount.Presenters.Interfaces;
-    using AMXCurrentAccount.Views.PostCustomerCurrentAccount;
+    using AMXCurrentAccount.Views.GetCurrentAccount.Response;
+    using AMXCurrentAccount.Views.PostCustomerCurrentAccount.Request;
 
     public class CurrentAccountPresenter : ICurrentAccountPresenter
     {
@@ -25,10 +26,12 @@
             await _currentAccountService.PostCustomerCurrentAccount(request);
         }
 
-        public async Task<CustomerCurrentAccountResponse> GetCustomerCurrentAccount(int customerId)
+        public async Task<CustomerCurrentAccountResponseDTO> GetCustomerCurrentAccount(int customerId)
         {
             var result = await _currentAccountService.GetCustomerCurrentAccount(customerId);
-            return result;
+
+            var customerDto = CreateCustomerCurrentAccountResponseDTO(result);
+            return customerDto;
         }
 
         private static void ValidCustomerCurrentAccountRequestDTO(CustomerCurrentAccountRequestDTO customerCurrentAccount)
@@ -48,6 +51,42 @@
                 customerCurrentAccount.Surname);
 
             return result;
+        }
+
+        private static CustomerCurrentAccountResponseDTO CreateCustomerCurrentAccountResponseDTO(CustomerCurrentAccountResponse customerRequest)
+        {
+            var transactionsDto = CreateTransactionsCurrentAccountEntity(customerRequest.CurrentAccount.Transactions);
+
+            var currentAccountDto = new CurrentAccountResponseDTO(
+                customerRequest.CurrentAccount.CurrentAccountId,
+                customerRequest.CurrentAccount.CurrentAccountNumber,
+                customerRequest.CurrentAccount.Balance,
+                transactionsDto);
+
+            return new CustomerCurrentAccountResponseDTO(
+                customerRequest.CustomerId, 
+                customerRequest.InitialCredit,
+                customerRequest.Name,
+                customerRequest.Surname,
+                currentAccountDto);
+        }
+
+        private static TransactionsCurrentAccountResponseDTO[] CreateTransactionsCurrentAccountEntity(TransactionsCurrentAccountResponse[] transactionsResponse)
+        {
+            var transactionsDtoList = new List<TransactionsCurrentAccountResponseDTO>();
+            foreach (var transactionResponse in transactionsResponse)
+            {
+                var transactionDTO = new TransactionsCurrentAccountResponseDTO(
+                    transactionResponse.TransactionsId,
+                    transactionResponse.Amount,
+                    transactionResponse.Date,
+                    transactionResponse.SourceAccountId,
+                    transactionResponse.DestinationAccountId);
+
+                transactionsDtoList.Add(transactionDTO);
+            }
+
+            return transactionsDtoList.ToArray();
         }
     }
 }

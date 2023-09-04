@@ -31,7 +31,6 @@
                 var currentAccountDatabase = AMXDatabase.CustomerCurrentAccountDatabase.FirstOrDefault(q => q.CustomerId == customerId);
 
                 var entity = CreateCustomerCurrentAccountEntity(currentAccountDatabase);
-
                 return entity;
             }
             catch 

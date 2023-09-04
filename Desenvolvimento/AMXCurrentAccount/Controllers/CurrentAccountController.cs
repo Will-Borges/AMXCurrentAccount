@@ -4,7 +4,7 @@ namespace AMXCurrentAccount.Controllers
 {
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Exceptions;
     using AMXCurrentAccount.Presenters.Interfaces;
-    using AMXCurrentAccount.Views.PostCustomerCurrentAccount;
+    using AMXCurrentAccount.Views.PostCustomerCurrentAccount.Request;
 
     [Route("v1/currentAccount")]
     [ApiController]

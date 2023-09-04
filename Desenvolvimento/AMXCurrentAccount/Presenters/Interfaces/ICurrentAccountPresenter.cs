@@ -1,11 +1,12 @@
 ﻿namespace AMXCurrentAccount.Presenters.Interfaces
 {
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Response.GetCustomerCurrentAccount;
-    using AMXCurrentAccount.Views.PostCustomerCurrentAccount;
+    using AMXCurrentAccount.Views.GetCurrentAccount.Response;
+    using AMXCurrentAccount.Views.PostCustomerCurrentAccount.Request;
 
     public interface ICurrentAccountPresenter
     {
         Task PostCustomerCurrentAccount(CustomerCurrentAccountRequestDTO customerCurrentAccount);
-        Task<CustomerCurrentAccountResponse> GetCustomerCurrentAccount(int currentAccountNumber);
+        Task<CustomerCurrentAccountResponseDTO> GetCustomerCurrentAccount(int customerId)
     }
 }

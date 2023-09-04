@@ -1,4 +1,4 @@
-﻿namespace AMXCurrentAccount.Views.PostCustomerCurrentAccount
+﻿namespace AMXCurrentAccount.Views.PostCustomerCurrentAccount.Request
 {
     public class CustomerCurrentAccountRequestDTO
     {
