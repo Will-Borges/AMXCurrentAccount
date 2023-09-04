@@ -1,7 +1,9 @@
 # Usabilidade
 
 Dentro do projeto, existe a pasta chamada 'Colletions'
+
     Dentro desta colletion, existe dois endpoints
+    
         POST
             Responsável por realizar a abertura de uma conta, passando como parâmetro 'CustomerId, InitialCredit, Name e Surname'
 
