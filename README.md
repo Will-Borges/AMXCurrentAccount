@@ -9,7 +9,7 @@ Colletion:
             Responsável por realizar a abertura de uma conta, passando como parâmetro 'CustomerId, InitialCredit, Name e Surname'
 
         GET
-          Responsável por buscar os dados cadastrados no endpoint anterior, passando como parâmetro 'customerId'
+          Responsável por buscar os dados cadastrados no endpoint anterior, passando como parâmetro 'CustomerId'
 
 Desenvolvimento:
     onde está alocado o codigo fonte.
