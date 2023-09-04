@@ -1,6 +1,6 @@
 # Usabilidade
 
-Dentro do projeto, existe a pasta chamada 'Colletions' e 'Desenvolvimento'
+Dentro do projeto, existe as pastas chamadas 'Colletions', 'Desenvolvimento' e 'Diagrama'
 
 Colletion:
     Existe dois endpoints
@@ -9,7 +9,10 @@ Colletion:
             Responsável por realizar a abertura de uma conta, passando como parâmetro 'CustomerId, InitialCredit, Name e Surname'
 
         GET
-          Responsável por buscar os dados cadastrados no endpoint anterior, passando como parâmetro 'CustomerId'
+            Responsável por buscar os dados cadastrados no endpoint anterior, passando como parâmetro 'CustomerId'
 
 Desenvolvimento:
-    onde está alocado o codigo fonte.
+    Onde está alocado o codigo fonte.
+
+Diagrama:
+    Onde está alocado um diagrama, com o fluxo desenhado.
