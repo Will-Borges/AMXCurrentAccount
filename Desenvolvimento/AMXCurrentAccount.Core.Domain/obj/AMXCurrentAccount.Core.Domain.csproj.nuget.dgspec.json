@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {}
+    "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+    "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
+        "projectUniqueName": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
         "projectName": "AMXCurrentAccount.Core.Domain",
-        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
+        "projectPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\obj\\",
+        "outputPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",

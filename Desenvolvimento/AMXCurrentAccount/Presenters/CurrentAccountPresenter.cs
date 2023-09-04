@@ -35,7 +35,7 @@
         {
             if (customerCurrentAccount == null)
             {
-                throw new CurrentAccountException("Tha object CustomerCurrentAccountRequestDTO cannot be null");
+                throw new CurrentAccountException("Error: The object CustomerCurrentAccountRequestDTO cannot be null");
             }
         }
 

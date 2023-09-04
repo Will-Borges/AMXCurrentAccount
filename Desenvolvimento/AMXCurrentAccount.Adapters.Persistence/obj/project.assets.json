@@ -110,11 +110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+      "projectUniqueName": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
       "projectName": "AMXCurrentAccount.Adapters.Persistence",
-      "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+      "projectPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\obj\\",
+      "outputPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,11 +131,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
+            "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+              "projectPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
             },
-            "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
-              "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj"
+            "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
+              "projectPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj"
             }
           }
         }

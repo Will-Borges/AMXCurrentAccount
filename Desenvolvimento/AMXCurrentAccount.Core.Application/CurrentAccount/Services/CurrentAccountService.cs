@@ -2,9 +2,11 @@
 {
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Adapters.Repositories;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Entities.PostCustomerCurrentAccount.Request;
+    using AMXCurrentAccount.Core.Domain.CurrentAccount.Exceptions;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Interfaces;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Request.PostCustomerCurrentAccount;
     using AMXCurrentAccount.Core.Domain.CurrentAccount.Models.Response.GetCustomerCurrentAccount;
+    using System;
 
     public class CurrentAccountService : ICurrentAccountService
     {
@@ -33,8 +35,18 @@
         public async Task<CustomerCurrentAccountResponse> GetCustomerCurrentAccount(int customerId)
         {
             var entity = await _customerCurrentAccountRepository.GetCustomerCurrentAccountByCustomerId(customerId);
+            VerifyIfExistCustomerCurrentAccountByCustomerId(entity);
+
             var currentAccountResponse = CreateCustomerCurrentAccountResponse(entity);
             return currentAccountResponse;
+        }
+
+        private static void VerifyIfExistCustomerCurrentAccountByCustomerId(CustomerCurrentAccountEntity entity)
+        {
+            if (entity == null)
+            {
+                throw new CurrentAccountException("Error: Customer not found");
+            }
         }
 
         private async Task InsertCustomerCurrentAccount(CustomerCurrentAccountEntity currentAccount)

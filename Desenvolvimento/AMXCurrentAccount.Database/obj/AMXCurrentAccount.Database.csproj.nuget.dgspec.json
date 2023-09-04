@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {}
+    "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
+    "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
+        "projectUniqueName": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
         "projectName": "AMXCurrentAccount.Database",
-        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
+        "projectPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\obj\\",
+        "outputPath": "C:\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",

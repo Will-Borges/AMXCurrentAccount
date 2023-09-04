@@ -22,3 +22,15 @@ C:\Users\willi\OneDrive\Documentos\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurr
 C:\Users\willi\OneDrive\Documentos\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\refint\AMXCurrentAccount.Database.dll
 C:\Users\willi\OneDrive\Documentos\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.pdb
 C:\Users\willi\OneDrive\Documentos\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\ref\AMXCurrentAccount.Database.dll
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\bin\Debug\net7.0\AMXCurrentAccount.Database.deps.json
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\bin\Debug\net7.0\AMXCurrentAccount.Database.dll
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\bin\Debug\net7.0\AMXCurrentAccount.Database.pdb
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.csproj.AssemblyReference.cache
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.AssemblyInfoInputs.cache
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.AssemblyInfo.cs
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.csproj.CoreCompileInputs.cache
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.dll
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\refint\AMXCurrentAccount.Database.dll
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\AMXCurrentAccount.Database.pdb
+C:\AMX\AMXCurrentAccount\Desenvolvimento\AMXCurrentAccount.Database\obj\Debug\net7.0\ref\AMXCurrentAccount.Database.dll

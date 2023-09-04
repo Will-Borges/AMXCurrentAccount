@@ -42,6 +42,11 @@
 
         private static CustomerCurrentAccountEntity CreateCustomerCurrentAccountEntity(CustomerCurrentAccountDatabase customerDatabase)
         {
+            if (customerDatabase == null)
+            {
+                return null;
+            }
+
             var transactions = CreateTransactionsCurrentAccountEntity(customerDatabase.CurrentAccount.Transactions);
             var currentAccount = CreateCurrentAccountEntity(customerDatabase, transactions);
 
