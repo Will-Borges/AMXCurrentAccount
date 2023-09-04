@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.AspNetCore.OpenApi/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.OpenApi/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AMXCurrentAccount.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AMXCurrentAccount.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AMXCurrentAccount.Core.Domain.dll": {}
+        }
+      },
+      "AMXCurrentAccount.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/AMXCurrentAccount.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AMXCurrentAccount.Database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.OpenApi/7.0.4": {
+      "sha512": "1zlq5/xtbC9AyNHK2EBaL2RuCepoWHAXSxN68io/nndYLOTz/tgGmwtJvDZkUzFYooAXaNlavzcRlgS4muqgOA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
+      ]
+    },
+    "Microsoft.OpenApi/1.4.3": {
+      "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "type": "package",
+      "path": "microsoft.openapi/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.4.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "AMXCurrentAccount.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AMXCurrentAccount.Core.Domain/AMXCurrentAccount.Core.Domain.csproj",
+      "msbuildProject": "../AMXCurrentAccount.Core.Domain/AMXCurrentAccount.Core.Domain.csproj"
+    },
+    "AMXCurrentAccount.Database/1.0.0": {
+      "type": "project",
+      "path": "../AMXCurrentAccount.Database/AMXCurrentAccount.Database.csproj",
+      "msbuildProject": "../AMXCurrentAccount.Database/AMXCurrentAccount.Database.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AMXCurrentAccount.Core.Domain >= 1.0.0",
+      "AMXCurrentAccount.Database >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 7.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\willi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+      "projectName": "AMXCurrentAccount.Adapters.Persistence",
+      "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
+            },
+            "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
+              "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

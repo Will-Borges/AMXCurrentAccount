@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MWZH5C4ABrV1Sj8wyA/ADD5pZn9gRsQWFMpn+/FncVuIOLorCEmILZQeHj5l3TK9cY0M06hYJeJDieDcyISwwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

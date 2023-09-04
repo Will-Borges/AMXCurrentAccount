@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "J6yYy65ZdlK7ZEqOT/49gQjo1+1kLhSd+Y6FCwm0CWGZbReBeVb+dE6GvlaYTA+JvUVRkyeGr/yidQSq9zstFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

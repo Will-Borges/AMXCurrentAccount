@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount\\AMXCurrentAccount.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+        "projectName": "AMXCurrentAccount.Adapters.Persistence",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
+              },
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj",
+        "projectName": "AMXCurrentAccount.Core.Application",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj"
+              },
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
+        "projectName": "AMXCurrentAccount.Core.Domain",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
+        "projectName": "AMXCurrentAccount.Database",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\AMXCurrentAccount.Database.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount\\AMXCurrentAccount.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount\\AMXCurrentAccount.csproj",
+        "projectName": "AMXCurrentAccount",
+        "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount\\AMXCurrentAccount.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Adapters.Persistence\\AMXCurrentAccount.Adapters.Persistence.csproj"
+              },
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Application\\AMXCurrentAccount.Core.Application.csproj"
+              },
+              "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\willi\\OneDrive\\Documentos\\AMX\\AMXCurrentAccount\\Desenvolvimento\\AMXCurrentAccount.Core.Domain\\AMXCurrentAccount.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

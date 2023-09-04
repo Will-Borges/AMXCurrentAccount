@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "5a551acd-83c9-40f1-8648-79b42c496993",
+		"name": "AMXCurrentAccount",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17162358"
+	},
+	"item": [
+		{
+			"name": "PostCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerId\": 1,\r\n    \"InitialCredit\": 101.45,\r\n    \"Name\": \"John\",\r\n    \"Surname\": \"Doe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7088/v1/currentAccount",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7088",
+					"path": [
+						"v1",
+						"currentAccount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCurrentAccount",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
