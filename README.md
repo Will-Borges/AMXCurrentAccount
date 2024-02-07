@@ -38,12 +38,12 @@ Requirements\
 Bonuses\
     • Accounts and Transactions are different services.\
     • Frontend (simple one is OK).\
-    • Attention to CI/CD\
+    • Attention to CI/CD.
 
 Constraints\
     Feel free to use any open source tool or framework.\
     For storing the information, the data can be saved in memory and not actually persisted to
     an external database, so that we can test the solution easier. However, remember this is a
     backend assignment and consider layers, abstractions, testability and enterprise-level
-    architecture carefully.\
+    architecture carefully.
 
